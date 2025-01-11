@@ -6,7 +6,7 @@
 	<packaging>jar</packaging>
 	<name>sunat WS</name>
 	<description>sunat Webservice Endpoint on Jaxb for WS</description>
-	<url>https://CodericBusiness.github.io/org.coderic.ws.sunat</url>
+	<url>https://CodericDev.github.io/org.coderic.ws.sunat</url>
 	<organization>
 		<name>Coderic</name>
 		<url>https://coderic.org/</url>
@@ -19,13 +19,13 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git://github.com/CodericBusiness/org.coderic.ws.sunat.git</connection>
-		<developerConnection>scm:git:ssh://github.com:CodericBusiness/org.coderic.ws.sunat.git</developerConnection>
-		<url>http://github.com/CodericBusiness/org.coderic.ws.sunat/tree/master</url>
+		<connection>scm:git:https://github.com/CodericDev/org.coderic.ws.sunat.git</connection>
+		<developerConnection>scm:git:git@github.com:CodericDev/org.coderic.ws.sunat.git</developerConnection>
+		<url>http://github.com/CodericDev/org.coderic.ws.sunat/tree/master</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/CodericBusiness/org.coderic.ws.sunat/issues</url>
+		<url>https://github.com/CodericDev/org.coderic.ws.sunat/issues</url>
 	</issueManagement>
 	<developers>
 		<developer>
