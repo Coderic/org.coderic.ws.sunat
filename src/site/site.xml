@@ -5,38 +5,42 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
     <bannerLeft>
         <name>${project.name}</name>
-        <!--src>https://maven.apache.org/images/apache-maven-project.png</src-->
-        <href>${project.url}</href>
     </bannerLeft>
     <bannerRight>
-        <src>https://coderic.org/assets/img/logo.png</src>
-        <href>https://coderic.org/</href>
+        <name>CODERIC FINTECH</name>
+        <src>https://github.com/coderic.png</src>
+        <href>https://coderic.org</href>
     </bannerRight>
     <poweredBy>
-        <logo name="Coderic" href="https://coderic.org/"
-              img="https://business.coderic.org/org.coderic.ws.sunat/images/logo.png" position="center"
+        <logo name="Coderic" href="https://coderic.org"
+              img="https://github.com/coderic.png" position="center"
               width="80%" title="Coderic"/>
     </poweredBy>
     <skin>
         <groupId>org.apache.maven.skins</groupId>
         <artifactId>maven-fluido-skin</artifactId>
-        <version>1.11.1</version>
+        <version>2.0.1</version>
     </skin>
     <custom>
         <fluidoSkin>
             <profile>pre-release</profile>
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
-
+            <topBarIcon>
+                <name>Coderic</name>
+                <alt>Coderic</alt>
+                <src>https://github.com/coderic.png</src>
+                <href>/index.html</href>
+            </topBarIcon>
         </fluidoSkin>
     </custom>
-    <edit>https://github.com/CodericBusiness/org.coderic.ws.sunat/edit/master/</edit>
+    <edit>https://github.com/CodericDev/org.coderic.ws.sunat/edit/master/</edit>
     <body>
         <breadcrumbs>
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
-            <item name="Español" href="https://business.coderic.org/org.coderic.ws.sunat/es/"/>
-            <item name="Repository" href="https://github.com/CodericBusiness/org.coderic.ws.sunat"/>
+            <item name="Español" href="https://Dev.coderic.org/org.coderic.ws.sunat/es/"/>
+            <item name="Repository" href="https://github.com/CodericDev/org.coderic.ws.sunat"/>
             <item name="sunat" href="https://www.sunat.gov.co/"/>
         </links>
         <menu name="Related links">
