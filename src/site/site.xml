@@ -7,7 +7,7 @@
         <name>${project.name}</name>
     </bannerLeft>
     <bannerRight>
-        <name>CODERIC FINTECH</name>
+        <name>CODERIC</name>
         <src>https://github.com/coderic.png</src>
         <href>https://coderic.org</href>
     </bannerRight>
@@ -43,7 +43,7 @@
             <item name="sunat" href="https://www.sunat.gov.co/"/>
         </links>
         <menu name="Related links">
-            <item name="Semantic Versioning" href="https://semver.org/lang/en/"/>
+            <item name="Semantic Versioning" href="https://semver.org"/>
             <item name="Maven" href="https://maven.apache.org/"/>
             <item name="Java" href="https://www.javainuse.com/"/>
         </menu>

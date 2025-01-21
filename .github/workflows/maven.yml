@@ -37,10 +37,12 @@ jobs:
       run: mvn site --file pom.xml
     - name: Setup Pages
       uses: actions/configure-pages@v5
+    - name: Copy CSS
+      run: mv target/site/css/site.css target/site/es/css/site.css
     - name: Upload Artifacts
       uses: actions/upload-pages-artifact@v3
       with:
-        path: ./target/site/es
+        path: ./target/site/
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4

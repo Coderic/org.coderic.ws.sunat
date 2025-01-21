@@ -11,7 +11,7 @@ import jakarta.xml.bind.annotation.XmlRegistry;
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
  * generated in the org.coderic.ws.sunat.wsdl package. 
- * <p>An ObjectFactory allows you to programatically 
+ * <p>An ObjectFactory allows you to programmatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
  * content can consist of schema derived interfaces 
@@ -26,12 +26,8 @@ public class ObjectFactory {
 
     private static final QName _GetStatus_QNAME = new QName("http://service.sunat.gob.pe", "getStatus");
     private static final QName _GetStatusResponse_QNAME = new QName("http://service.sunat.gob.pe", "getStatusResponse");
-    private static final QName _SendBill_QNAME = new QName("http://service.sunat.gob.pe", "sendBill");
-    private static final QName _SendBillResponse_QNAME = new QName("http://service.sunat.gob.pe", "sendBillResponse");
-    private static final QName _SendPack_QNAME = new QName("http://service.sunat.gob.pe", "sendPack");
-    private static final QName _SendPackResponse_QNAME = new QName("http://service.sunat.gob.pe", "sendPackResponse");
-    private static final QName _SendSummary_QNAME = new QName("http://service.sunat.gob.pe", "sendSummary");
-    private static final QName _SendSummaryResponse_QNAME = new QName("http://service.sunat.gob.pe", "sendSummaryResponse");
+    private static final QName _GetStatusCdrResponse_QNAME = new QName("http://service.sunat.gob.pe", "getStatusCdrResponse");
+    private static final QName _GetStatusCdr_QNAME = new QName("http://service.sunat.gob.pe", "getStatusCdr");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: org.coderic.ws.sunat.wsdl
@@ -61,63 +57,23 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SendBill }
+     * Create an instance of {@link GetStatusCdrResponse }
      * 
      * @return
-     *     the new instance of {@link SendBill }
+     *     the new instance of {@link GetStatusCdrResponse }
      */
-    public SendBill createSendBill() {
-        return new SendBill();
+    public GetStatusCdrResponse createGetStatusCdrResponse() {
+        return new GetStatusCdrResponse();
     }
 
     /**
-     * Create an instance of {@link SendBillResponse }
+     * Create an instance of {@link GetStatusCdr }
      * 
      * @return
-     *     the new instance of {@link SendBillResponse }
+     *     the new instance of {@link GetStatusCdr }
      */
-    public SendBillResponse createSendBillResponse() {
-        return new SendBillResponse();
-    }
-
-    /**
-     * Create an instance of {@link SendPack }
-     * 
-     * @return
-     *     the new instance of {@link SendPack }
-     */
-    public SendPack createSendPack() {
-        return new SendPack();
-    }
-
-    /**
-     * Create an instance of {@link SendPackResponse }
-     * 
-     * @return
-     *     the new instance of {@link SendPackResponse }
-     */
-    public SendPackResponse createSendPackResponse() {
-        return new SendPackResponse();
-    }
-
-    /**
-     * Create an instance of {@link SendSummary }
-     * 
-     * @return
-     *     the new instance of {@link SendSummary }
-     */
-    public SendSummary createSendSummary() {
-        return new SendSummary();
-    }
-
-    /**
-     * Create an instance of {@link SendSummaryResponse }
-     * 
-     * @return
-     *     the new instance of {@link SendSummaryResponse }
-     */
-    public SendSummaryResponse createSendSummaryResponse() {
-        return new SendSummaryResponse();
+    public GetStatusCdr createGetStatusCdr() {
+        return new GetStatusCdr();
     }
 
     /**
@@ -157,81 +113,29 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendBill }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetStatusCdrResponse }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendBill }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetStatusCdrResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendBill")
-    public JAXBElement<SendBill> createSendBill(SendBill value) {
-        return new JAXBElement<>(_SendBill_QNAME, SendBill.class, null, value);
+    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "getStatusCdrResponse")
+    public JAXBElement<GetStatusCdrResponse> createGetStatusCdrResponse(GetStatusCdrResponse value) {
+        return new JAXBElement<>(_GetStatusCdrResponse_QNAME, GetStatusCdrResponse.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendBillResponse }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetStatusCdr }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendBillResponse }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetStatusCdr }{@code >}
      */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendBillResponse")
-    public JAXBElement<SendBillResponse> createSendBillResponse(SendBillResponse value) {
-        return new JAXBElement<>(_SendBillResponse_QNAME, SendBillResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendPack }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendPack }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendPack")
-    public JAXBElement<SendPack> createSendPack(SendPack value) {
-        return new JAXBElement<>(_SendPack_QNAME, SendPack.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendPackResponse }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendPackResponse }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendPackResponse")
-    public JAXBElement<SendPackResponse> createSendPackResponse(SendPackResponse value) {
-        return new JAXBElement<>(_SendPackResponse_QNAME, SendPackResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendSummary }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendSummary }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendSummary")
-    public JAXBElement<SendSummary> createSendSummary(SendSummary value) {
-        return new JAXBElement<>(_SendSummary_QNAME, SendSummary.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendSummaryResponse }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendSummaryResponse }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "sendSummaryResponse")
-    public JAXBElement<SendSummaryResponse> createSendSummaryResponse(SendSummaryResponse value) {
-        return new JAXBElement<>(_SendSummaryResponse_QNAME, SendSummaryResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://service.sunat.gob.pe", name = "getStatusCdr")
+    public JAXBElement<GetStatusCdr> createGetStatusCdr(GetStatusCdr value) {
+        return new JAXBElement<>(_GetStatusCdr_QNAME, GetStatusCdr.class, null, value);
     }
 
 }

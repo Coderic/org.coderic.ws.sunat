@@ -7,9 +7,9 @@ import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para statusResponse complex type.
+ * <p>Clase Java para statusResponse complex type.</p>
  * 
- * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
+ * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.</p>
  * 
  * <pre>{@code
  * <complexType name="statusResponse">
@@ -18,6 +18,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *       <sequence>
  *         <element name="content" type="{http://www.w3.org/2001/XMLSchema}base64Binary" minOccurs="0"/>
  *         <element name="statusCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         <element name="statusMessage" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       </sequence>
  *     </restriction>
  *   </complexContent>
@@ -29,12 +30,14 @@ import jakarta.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "statusResponse", propOrder = {
     "content",
-    "statusCode"
+    "statusCode",
+    "statusMessage"
 })
 public class StatusResponse {
 
     protected byte[] content;
     protected String statusCode;
+    protected String statusMessage;
 
     /**
      * Obtiene el valor de la propiedad content.
@@ -80,6 +83,30 @@ public class StatusResponse {
      */
     public void setStatusCode(String value) {
         this.statusCode = value;
+    }
+
+    /**
+     * Obtiene el valor de la propiedad statusMessage.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getStatusMessage() {
+        return statusMessage;
+    }
+
+    /**
+     * Define el valor de la propiedad statusMessage.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setStatusMessage(String value) {
+        this.statusMessage = value;
     }
 
 }
