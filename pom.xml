@@ -4,7 +4,7 @@
 	<artifactId>sunat</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
-	<name>sunat WS</name>
+	<name>Sunat WS</name>
 	<description>sunat Webservice Endpoint on Jaxb for WS</description>
 	<url>https://CodericDev.github.io/org.coderic.ws.sunat</url>
 	<organization>
