@@ -12,9 +12,9 @@
         <href>https://coderic.org</href>
     </bannerRight>
     <poweredBy>
-        <logo name="Coderic" href="https://coderic.org"
-              img="https://github.com/coderic.png" position="center"
-              width="80%" title="Coderic"/>
+        <logo name="Superintendencia Nacional de Aduanas y de Administración Tributaria" href="https://sunat.gob.pe"
+              img="https://repositorio.sunat.gob.pe/assets/custom/images/logo-header.png" position="center"
+              width="100%" title="Superintendencia Nacional de Aduanas y de Administración Tributaria"/>
     </poweredBy>
     <skin>
         <groupId>org.apache.maven.skins</groupId>
