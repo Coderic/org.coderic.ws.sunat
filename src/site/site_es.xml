@@ -7,7 +7,7 @@
         <name>${project.name}</name>
     </bannerLeft>
     <bannerRight>
-        <name>CODERIC FINTECH</name>
+        <name>CODERIC</name>
         <src>https://github.com/coderic.png</src>
         <href>https://coderic.org</href>
     </bannerRight>
