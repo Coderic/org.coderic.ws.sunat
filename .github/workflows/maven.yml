@@ -6,13 +6,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
-
-on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+name: Deploy Maven site to GitHub Pages
+on: workflow_dispatch
 concurrency:
   group: github-pages
   cancel-in-progress: false
