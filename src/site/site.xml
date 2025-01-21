@@ -33,14 +33,13 @@
             </topBarIcon>
         </fluidoSkin>
     </custom>
-    <edit>https://github.com/CodericDev/org.coderic.ws.sunat/edit/master/</edit>
+    <edit>https://github.com/Coderic/org.coderic.ws.sunat/edit/master/</edit>
     <body>
         <breadcrumbs>
             <item name="${project.artifactId}" href="/index.html"/>
         </breadcrumbs>
         <links>
-            <item name="Español" href="https://Dev.coderic.org/org.coderic.ws.sunat/es/"/>
-            <item name="Repository" href="https://github.com/CodericDev/org.coderic.ws.sunat"/>
+            <item name="Repository" href="https://github.com/Coderic/org.coderic.ws.sunat"/>
             <item name="sunat" href="https://www.sunat.gov.co/"/>
         </links>
         <menu name="Related links">
