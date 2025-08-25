@@ -35,7 +35,7 @@ jobs:
     - name: Copy CSS
       run: mv target/site/css/site.css target/site/es/css/site.css
     - name: Upload Artifacts
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: ./target/site/es/
     - name: Deploy to GitHub Pages
